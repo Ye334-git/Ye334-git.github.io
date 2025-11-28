@@ -11,7 +11,7 @@ baseurl: ""  # 子路径，若无则留空
 timezone: Asia/Shanghai  # 时区
 
 # Jekyll主题（改为白色背景）
-theme: jekyll-theme-minimal  # 使用官方minimal主题（白色背景）
+theme: minima
 
 # 自定义导航栏
 nav:
