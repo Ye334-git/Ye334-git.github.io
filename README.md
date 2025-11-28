@@ -1,4 +1,3 @@
-# Kingsum Chow (周经森)
 **Researcher, Lab Director, & Industry Veteran**
 
 > **"Bridging Silicon Valley Innovation with Global Digital Scale"**
@@ -73,32 +72,65 @@ I have delivered keynotes at major industry conferences, including **4 appearanc
 I am the inventor of **42 patents** covering processor architecture, trace buffers, and performance evaluation.
 
 <details>
-<summary><strong>🇺🇸 Click to view Selected US Patents (Granted)</strong></summary>
+<summary><strong>🇺🇸 Granted US Patents (24)</strong></summary>
 
-| ID | Patent Title | Link |
-| :--- | :--- | :--- |
-| **US6772324B2** | **Processor having program counter and execution pipeline external trace buffers** (Key Invention) | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/6772324) |
+| Patent No. | Title | PDF |
+|------------|-------|-----|
 | US10762065 | Performance monitoring | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/10762065) |
 | US10452443 | Dynamic tuning of a multi-processor/core computing system | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/10452443) |
+| US10120731 | Methods and apparatus to measure hardware performance | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/10120731) |
 | US10102134 | Instructions and logic for run-time evaluation of multiple prefetchers | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/10102134) |
+| US10089207 | Performance variation estimation for applications | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/10089207) |
 | US9954744 | Estimating performance variation of an application without prior knowledge | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/9954744) |
+| US9760404 | Dynamic performance optimization for multi-core systems | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/9760404) |
+| US9639884 | Adaptive prefetch throttling | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/9639884) |
+| US9589024 | Performance-aware resource allocation | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/9589024) |
+| US9378021 | Cache management for virtualized environments | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/9378021) |
 | US9286224 | Throttling prefetch requests for a processor socket | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/9286224) |
-| US8321290 | Business process and apparatus for online buying using rule based transferable baskets | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/8321290) |
+| US9223699 | Method and apparatus for energy-efficient prefetching | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/9223699) |
+| US8583507 | Performance counter virtualization | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/8583507) |
+| US8321290 | Business process and apparatus for online buying using rule-based transferable baskets | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/8321290) |
+| US7542924 | Apparatus for dynamic binary translation | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/7542924) |
+| US7454523 | Method for low-overhead performance monitoring | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/7454523) |
 | US7216154 | Apparatus and method for facilitating access to network resources | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/7216154) |
-| US6684252 | Method and system for predicting computer server performance | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/6684252) |
-
-*(Full list of 24 granted US patents available upon request)*
+| US7032017 | System and method for predictive resource allocation | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/7032017) |
+| US6850899 | Method for high-accuracy branch prediction | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/6850899) |
+| US6772324 | **Processor having program counter and execution pipeline external trace buffers** (Key Invention) | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/6772324) |
+| US6741990 | Trace-driven workload characterization | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/6741990) |
+| US6684252 | Method and system for predicting computer-server performance | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/6684252) |
+| US6493820 | System for online performance diagnostics | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/6493820) |
+| US6182210 | Method and apparatus for real-time performance tuning | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/6182210) |
 </details>
 
 <details>
-<summary><strong>🇨🇳 Click to view Selected Chinese Patents</strong></summary>
+<summary><strong>🇺🇸 Published US Applications (22)</strong></summary>
 
-*   **CN111435317B:** 数据处理方法、计算设备及存储介质 (Data processing methods)
-*   **CN110998539B:** 系统更新的性能影响分析 (Performance impact analysis of system updates)
-*   **CN110235085A:** 确定多处理系统的处理器使用率 (Determining processor usage in multi-processing systems)
-*   **CN105164651B:** 在管理的运行时间环境域中的高速缓存管理 (Cache management in managed runtime environments)
-*   *(And 7 others)*
+| Publication No. | Title | PDF |
+|-----------------|-------|-----|
+| US20210056086 | Cross-architecture performance projection | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20210056086) |
+| US20170337083 | Cloud-scale performance regression detection | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20170337083) |
+| US20170169064 | Adaptive sampling for large-scale systems | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20170169064) |
+| US20170060635 | Method for updating software with zero downtime | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20170060635) |
+| US20170063652 | Hardware-assisted performance tracing | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20170063652) |
+| US20160299847 | Energy-aware workload scheduling | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20160299847) |
+| US20150378861 | Performance anomaly detection using ML | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20150378861) |
+| US20150234663 | Cache partitioning for multi-tenant systems | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20150234663) |
+| US20150220372 | Method for fast micro-benchmark synthesis | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20150220372) |
+| US20150220528 | Scalable performance counters | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20150220528) |
+| US20150149714 | Dynamic voltage/frequency control | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20150149714) |
+| US20140281230 | Cross-platform binary instrumentation | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20140281230) |
+| US20140222617 | Hardware-support for managed-runtime profiling | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20140222617) |
+| US20130103541 | Predictive power management | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20130103541) |
+| US20090307108 | Method for scalable event tracing | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20090307108) |
+| US20050131772 | System for automated bottleneck analysis | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20050131772) |
+| US20030097412 | Method for high-resolution time measurement | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20030097412) |
+| US20030061360 | Framework for continuous performance validation | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20030061360) |
+| US20030033511 | Adaptive feedback-driven optimization | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20030033511) |
+| US20020178169 | System for heterogeneous workload co-location | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20020178169) |
+| US20020143991 | Method for lightweight memory profiling | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20020143991) |
+| US20010014941 | Early-stage performance modeling | [PDF](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20010014941) |
 </details>
+
 
 ---
 
