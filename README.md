@@ -1,17 +1,19 @@
-<img width="1041" height="140" alt="image" src="https://github.com/user-attachments/assets/be4fce2a-9820-460d-b9ca-db4b8ac835de" /># Kingsum Chow (周经森)
+# Kingsum Chow (周经森)
 **Researcher, Lab Director, & Enterprise CEO**
 
-> **"Software Hardware Co-optimization"**
+> **"Software Hardware Co-optimization & System Performance Analytics"**
 
 ---
 
 ## 📖 Biography & Impact
 
-I am currently a **Researcher** and **Doctoral Supervisor** at the School of Software Technology, **Zhejiang University**, where I lead the **SPAIL (System Performance Analytics and Intelligence Lab)**.
+### 🎓 Current Role & Education
+I am currently a **Researcher** and **Doctoral Supervisor** at the School of Software Technology, **Zhejiang University**, where I serve as the Director of the **SPAIL (System Performance Analytics and Intelligence Lab)**.
 
-My career spans nearly **30 years** at the forefront of computer system performance, bridging the gap between hardware architecture and hyperscale software deployment. I received my Ph.D. in Computer Science & Engineering from the **University of Washington** (1996), studying under ACM/IEEE Fellow David Notkin.
+I earned my **Ph.D. in Computer Science & Engineering** from the **University of Washington** (1996), where I studied under ACM/IEEE Fellow **David Notkin**.
 
-Before returning to academia in 2023, I held senior technical leadership roles at two of the world's most influential technology companies:
+### 💼 Industry Experience
+My career spans nearly **30 years** at the forefront of the global technology industry, bridging the gap between hardware architecture and hyperscale software deployment. Before returning to academia in 2023, I held senior technical leadership roles at two of the world's most influential technology companies:
 *   **Chief Scientist** at **Alibaba** (2016–2022)
 *   **Principal Engineer** at **Intel (USA)** (1996–2016)
 
@@ -22,21 +24,6 @@ Throughout my career, I have focused on **Software-Hardware Co-optimization (SHC
 *   **JCP-EC Member:** I served as the **first and only Chinese representative** on the **Java Community Process Executive Committee (JCP-EC)** (2018–2022), the highest decision-making body for global Java standards.
 *   **Standards & Patents:** I hold **42 patents** (including 24 US patents) and have published over **135 papers**.
 
----
-
-## 💬 Endorsements
-
-> "Kingsum is considered a leading expert across the software and hardware industry for accurate data collection, intuitive analysis and identify optimizations... His knowledge of production systems at scale... resulted in significant performance improvements."
-> — **Anil Rajput**, AMD Fellow
-
-> "Kingsum's achievements in the realm of software-hardware co-optimization are truly noteworthy. He stands as a globally recognized authority in this domain. His profound understanding and significant international impact... has spurred innovation."
-> — **Prof. Yuan Xie**, HKUST (IEEE Fellow, ACM Fellow)
-
-> "He has a deep understanding of Intel processors and how to use performance optimization techniques to tune the hardware... He has led have groundbreaking performance improvements."
-> — **Vish Viswanathan**, Intel Fellow
-
-> "Kingsum is a world-leading expert in this field... widely recognized for his expertise in performance, modeling, and analysis of software applications, with a long history of high-impact work in industry."
-> — **Prof. Ed Lazowska**, University of Washington (Member of NAE, AAAS Fellow)
 
 ---
 
@@ -65,6 +52,22 @@ I have delivered keynotes at major industry conferences, including **4 appearanc
 *   **Arm DevSummit:** *Keynote Presentation* (Nov 2020 & Oct 2020)
 *   **QCon Beijing:** *Keynote* (2017)
 *   **JavaOne (San Francisco):** *Keynote Speaker* (2017, 2011, 2008, 2007)
+
+---
+
+## 💬 Endorsements
+
+> "Kingsum is considered a leading expert across the software and hardware industry for accurate data collection, intuitive analysis and identify optimizations... His knowledge of production systems at scale... resulted in significant performance improvements."
+> — **Anil Rajput**, AMD Fellow
+
+> "Kingsum's achievements in the realm of software-hardware co-optimization are truly noteworthy. He stands as a globally recognized authority in this domain. His profound understanding and significant international impact... has spurred innovation."
+> — **Prof. Yuan Xie**, HKUST (IEEE Fellow, ACM Fellow)
+
+> "He has a deep understanding of Intel processors and how to use performance optimization techniques to tune the hardware... He has led have groundbreaking performance improvements."
+> — **Vish Viswanathan**, Intel Fellow
+
+> "Kingsum is a world-leading expert in this field... widely recognized for his expertise in performance, modeling, and analysis of software applications, with a long history of high-impact work in industry."
+> — **Prof. Ed Lazowska**, University of Washington (Member of NAE, AAAS Fellow)
 
 ---
 
