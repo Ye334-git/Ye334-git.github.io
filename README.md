@@ -1,7 +1,7 @@
-# Kingsum Chow (周经森)
+<img width="1041" height="140" alt="image" src="https://github.com/user-attachments/assets/be4fce2a-9820-460d-b9ca-db4b8ac835de" /># Kingsum Chow (周经森)
 **Researcher, Lab Director, & Enterprise CEO**
 
-> **"Bridging Silicon Valley Innovation with Global Digital Scale"**
+> **"Software Hardware Co-optimization"**
 
 ---
 
