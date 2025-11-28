@@ -1,23 +1,23 @@
 # 网站基础信息
-title: KingsumChow's Homepage  # 网站标题
-author: KingsumChow  # 作者名
-email: zhangsan@example.com  # 联系邮箱
-description: 分享计算机科学研究与项目实践的个人主页  # 网站描述
-lang: zh-CN  # 网站语言
+title: "KingsumChow's Homepage"  # 网站标题
+author: "KingsumChow"  # 作者名
+email: "ksumchow@outlook.com"  # 联系邮箱
+description: "A personal homepage"  # 网站描述
+lang: en  # 网站语言（改为英文）
 
 # GitHub Pages配置
 url: "https://ye334-git.github.io"  # 网站根地址，必须正确
 baseurl: ""  # 子路径，若无则留空
 timezone: Asia/Shanghai  # 时区
 
-# Jekyll主题（可选，若用官方主题需指定）
-theme: jekyll-theme-midnight
+# Jekyll主题（改为白色背景）
+theme: jekyll-theme-minimal  # 使用官方minimal主题（白色背景）
 
-# 自定义导航栏（需配合布局文件，可选）
+# 自定义导航栏
 nav:
-  - name: 首页
+  - name: Home
     url: /
-  - name: 项目
+  - name: Projects
     url: /projects.html
-  - name: 关于
+  - name: About
     url: /about.md
