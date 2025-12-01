@@ -68,6 +68,17 @@ I have delivered keynotes at major industry conferences, including **4 appearanc
 * **Arm DevSummit:** *Keynote Presentation* (Nov 2020 & Oct 2020)
 * **QCon Beijing:** *Keynote* (2017)
 * **JavaOne (San Francisco):** *Keynote Speaker* (2017, 2011, 2008, 2007)
+* <div style="text-align: center; margin-top: 30px;">
+  <figure style="display: inline-block; margin: 0 15px;">
+    <img src="2017JavaOne.png" alt="Kingsum Chow delivering the Keynote speech at JavaOne in 2017." style="width: 100%; max-width: 400px; border-radius: 8px;">
+    <figcaption style="margin-top: 10px; font-style: italic; color: #555;">JavaOne Keynote (2017)</figcaption>
+  </figure>
+  
+  <figure style="display: inline-block; margin: 0 15px;">
+    <img src="2021Qcon.png" alt="Kingsum Chow delivering the Keynote speech at QCon Shanghai in 2021." style="width: 100%; max-width: 400px; border-radius: 8px;">
+    <figcaption style="margin-top: 10px; font-style: italic; color: #555;">QCon Shanghai Keynote (2021)</figcaption>
+  </figure>
+</div>
 
 ---
 
