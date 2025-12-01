@@ -147,7 +147,7 @@ I have delivered keynotes at major industry conferences, including **4 appearanc
 
 ---
 
-## 7️⃣ Patents
+## 6️⃣ Patents
 
 <details>
   <summary style="cursor: pointer; padding: 10px 0;"><b>🇺🇸 Granted US Patents（24）</b></summary>
