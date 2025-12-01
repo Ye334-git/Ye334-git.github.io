@@ -1,23 +1,39 @@
-# 网站基础信息
-title: "KingsumChow's Homepage"  # 网站标题
-author: "KingsumChow"  # 作者名
-email: "ksumchow@outlook.com"  # 联系邮箱
-description: "A personal homepage"  # 网站描述
-lang: en  # 网站语言（改为英文）
+# ==========================================
+# 网站基础设置 (Site Settings)
+# ==========================================
+title: "Kingsum Chow (周经森)"      # 浏览器标签页和导航栏左侧显示的标题
+email: "ksumchow@outlook.com"
+description: "Researcher, Lab Director, & Enterprise CEO - Software Hardware Co-optimization"
+baseurl: ""                         # 根目录为空
+url: "https://ye334-git.github.io"  # 你的 GitHub Pages 完整地址
 
-# GitHub Pages配置
-url: "https://ye334-git.github.io"  # 网站根地址，必须正确
-baseurl: ""  # 子路径，若无则留空
-timezone: Asia/Shanghai  # 时区
-
-# Jekyll主题（改为白色背景）
+# ==========================================
+# 构建与主题设置 (Build & Theme)
+# ==========================================
+# 使用 Minima 主题 (默认白色背景，简洁风格)
 theme: minima
 
-# 自定义导航栏
-nav:
-  - name: Home
-    url: /
-  - name: Projects
-    url: /projects.html
-  - name: About
-    url: /about.md
+# 插件列表
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# Markdown 解析器设置
+markdown: kramdown
+kramdown:
+  input: GFM  # GitHub Flavored Markdown
+
+# ==========================================
+# 导航栏设置 (Navigation)
+# ==========================================
+# Minima 主题默认会自动抓取页面。
+# 如果你想强制指定顺序，请取消下面 header_pages 的注释并填入你的文件名：
+# header_pages:
+#   - index.md
+#   - projects.md
+#   - about.md
+
+# 作者信息 (用于页脚和 SEO)
+author:
+  name: "Kingsum Chow"
+  email: "ksumchow@outlook.com"
