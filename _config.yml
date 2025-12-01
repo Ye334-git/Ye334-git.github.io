@@ -1,39 +1,20 @@
 # ==========================================
-# 网站基础设置 (Site Settings)
+# 网站基础设置
 # ==========================================
-title: "Kingsum Chow (周经森)"      # 浏览器标签页和导航栏左侧显示的标题
+title: "Kingsum Chow"              # 网站左上角名称
 email: "ksumchow@outlook.com"
-description: "Researcher, Lab Director, & Enterprise CEO - Software Hardware Co-optimization"
-baseurl: ""                         # 根目录为空
-url: "https://ye334-git.github.io"  # 你的 GitHub Pages 完整地址
+description: "Researcher, Lab Director, & Enterprise CEO"
+baseurl: ""
+url: "https://ye334-git.github.io"
 
 # ==========================================
-# 构建与主题设置 (Build & Theme)
+# 主题与构建
 # ==========================================
-# 使用 Minima 主题 (默认白色背景，简洁风格)
 theme: minima
-
-# 插件列表
 plugins:
   - jekyll-seo-tag
-  - jekyll-feed
 
-# Markdown 解析器设置
+# 确保解析器设置正确
 markdown: kramdown
 kramdown:
-  input: GFM  # GitHub Flavored Markdown
-
-# ==========================================
-# 导航栏设置 (Navigation)
-# ==========================================
-# Minima 主题默认会自动抓取页面。
-# 如果你想强制指定顺序，请取消下面 header_pages 的注释并填入你的文件名：
-# header_pages:
-#   - index.md
-#   - projects.md
-#   - about.md
-
-# 作者信息 (用于页脚和 SEO)
-author:
-  name: "Kingsum Chow"
-  email: "ksumchow@outlook.com"
+  input: GFM
