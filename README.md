@@ -26,7 +26,7 @@ permalink: /
 
 ### 🚀 Technical & Economic Impact
 - **Focus**: Software-Hardware Co-optimization (SHCO), Performance Analytics & Intelligence  
-- **Accumulated industry savings**: > USD 20 billion  
+- **Accumulated industry savings**: > 💰USD 20 billion  
 - **Scale**: Optimized tens of millions of servers worldwide, including Double-11 peak workloads
 
 ### 🌐 Global Authority
