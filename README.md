@@ -30,27 +30,27 @@ permalink: /
        color: #0077b6; 
        font-weight: bold;
      ">
-    🛠️ SPAIL Lab
+    →SPAIL Lab
   </a>
   
   <a href="https://person.zju.edu.cn/kingsum" target="_blank" 
      style="
        margin: 0 25px; 
        text-decoration: none; 
-       color: #28a745; 
+       color: #0077b6; 
        font-weight: bold;
      ">
-    🎓 My ZJU HomePage
+    →My ZJU HomePage
   </a>
   
   <a href="https://youtune.tech/" target="_blank" 
      style="
        margin: 0 25px; 
        text-decoration: none; 
-       color: #dc3545; 
+       color: #0077b6; 
        font-weight: bold;
      ">
-    🚀 Youtune.tech
+    →Youtune.tech
   </a>
 </div>
 
