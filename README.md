@@ -12,12 +12,20 @@ permalink: /
 
 ---
 
-<div style="text-align: center; margin: 30px 0; padding: 15px; background-color: #f8f8f8; border-radius: 8px; border: 1px solid #eee;">
-  <strong style="margin-right: 20px; color: #333; font-size: 1.1em;">Quick Links:</strong>
+<div style="
+    display: flex; /* 启用 Flexbox */
+    justify-content: center; /* 链接居中对齐 */
+    align-items: center; 
+    margin: 30px 0; 
+    padding: 15px; 
+    background-color: #f8f8f8; 
+    border-radius: 8px; 
+    border: 1px solid #eee;
+">
   
   <a href="https://github.com/ZJU-SPAIL" target="_blank" 
      style="
-       margin: 0 15px; 
+       margin: 0 25px; /* 增加左右间距 */
        text-decoration: none; 
        color: #0077b6; 
        font-weight: bold;
@@ -25,9 +33,9 @@ permalink: /
     🛠️ SPAIL Lab
   </a>
   
-  <a href="[#zju-homepage-link](https://person.zju.edu.cn/kingsum)" target="_blank" 
+  <a href="https://person.zju.edu.cn/kingsum" target="_blank" 
      style="
-       margin: 0 15px; 
+       margin: 0 25px; 
        text-decoration: none; 
        color: #28a745; 
        font-weight: bold;
@@ -35,9 +43,9 @@ permalink: /
     🎓 My ZJU HomePage
   </a>
   
-  <a href="[#youtune-tech-link](https://youtune.tech/)" target="_blank" 
+  <a href="https://youtune.tech/" target="_blank" 
      style="
-       margin: 0 15px; 
+       margin: 0 25px; 
        text-decoration: none; 
        color: #dc3545; 
        font-weight: bold;
