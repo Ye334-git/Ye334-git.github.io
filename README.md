@@ -37,14 +37,14 @@ permalink: /
 
 ## 🛠️ Research & Projects
 
-### 🔗[SPAIL Lab (System Performance Analytics and Intelligence Lab)](https://github.com/SPAIL-ZJU)
+### 🔗[SPAIL Lab (System Performance Analytics and Intelligence Lab)](https://github.com/ZJU-SPAIL)
 *Leading a team of industry veterans and top researchers to solve bottlenecks in Cloud, AI, and Big Data.*
 
-### 🔗[Project PIPA](https://github.com/kingsum/PIPA/wiki)
+### 🔗[Project PIPA - SPAIL](https://github.com/kingsum/PIPA/wiki)
 **Platform for Integrated Performance Analytics**
 A unified framework designed to describe, analyze, and optimize system performance across heterogeneous architectures.
 
-### 🏆Major Projects & Collabrations
+## 🏆Major Projects & Collabrations
 Dr. Chow has led large-scale, high-impact collaborations with global technology leaders, demonstrating expertise in full-stack system optimization. The projects he has spearheaded accumulated an astonishing total budget exceeding **💰160 million CNY** (over **💰20 million USD**).
 
 * **Strategic Ecosystem Partnerships:** Collaborated extensively with industry giants including Amazon, Ampere, Arm, Google, Huawei, Microsoft, Tencent, and Meta.
@@ -77,8 +77,7 @@ I have delivered keynotes at major industry conferences, including **4 appearanc
   <figure style="display: inline-block; margin: 0 15px;">
     <img src="2021Qcon.png" alt="Kingsum Chow delivering the Keynote speech at QCon Shanghai in 2021." style="width: 100%; max-width: 400px; border-radius: 8px;">
     <figcaption style="margin-top: 10px; font-style: italic; color: #555;">QCon Shanghai Keynote (2021)</figcaption>
-  </figure>
-</div>
+  </figure></div>
 
 ---
 
@@ -213,5 +212,5 @@ I have delivered keynotes at major industry conferences, including **4 appearanc
 ## 📮 Contact
 
 * **LinkedIn:** [Kingsum Chow](https://www.linkedin.com/in/kingsumchow/)
-* **Email:** `ksumchow [at] outlook [dot] com`
+* **Email:** [ksumchow@outlook.com](mailto:ksumchow@outlook.com)`
 * **Location:** Ningbo, Zhejiang, China
