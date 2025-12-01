@@ -212,5 +212,5 @@ I have delivered keynotes at major industry conferences, including **4 appearanc
 ## 📮 Contact
 
 * **LinkedIn:** [Kingsum Chow](https://www.linkedin.com/in/kingsumchow/)
-* **Email:** [ksumchow@outlook.com](mailto:ksumchow@outlook.com)`
+* **Email:** [ksumchow@outlook.com](mailto:ksumchow@outlook.com)
 * **Location:** Ningbo, Zhejiang, China
