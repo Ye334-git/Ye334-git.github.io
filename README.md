@@ -15,21 +15,27 @@ permalink: /
 ## 📖 Biography & Impact
 
 ### 🎓 Current Role & Education
-I am currently a **Researcher** and **Doctoral Supervisor** at the School of Software Technology, **Zhejiang University**, where I serve as the Director of the **SPAIL (System Performance Analytics and Intelligence Lab)**.
+- **Researcher / Ph.D. Supervisor** – School of Software Technology, Zhejiang University  
+- **Director** – SPAIL (System Performance Analytics and Intelligence Lab)  
+- **Ph.D.** – Computer Science & Engineering, University of Washington, 1996  
+  *Advisor: ACM/IEEE Fellow David Notkin*
 
-I earned my **Ph.D. in Computer Science & Engineering** from the **University of Washington** (1996), where I studied under ACM/IEEE Fellow **David Notkin**.
+### 💼 Industry Career
+| Company | Role | Period |
+| -------- | ---- | ------- |
+| Alibaba | Chief Scientist | 2016–2022 |
+| Intel (USA) | Principal Engineer | 1996–2016 |
 
-### 💼 Industry Experience
-My career spans nearly **30 years** at the forefront of the global technology industry, bridging the gap between hardware architecture and hyperscale software deployment. Before returning to academia in 2023, I held senior technical leadership roles at two of the world's most influential technology companies:
-* **Chief Scientist** at **Alibaba** (2016–2022)
-* **Principal Engineer** at **Intel (USA)** (1996–2016)
+*28 years of hands-on experience spanning the P6 micro-architecture to the cloud-native era.*
 
-### 🚀 Economic & Industry Impact
-Throughout my career, I have focused on **Software-Hardware Co-optimization (SHCO)** and **System Performance Analytics**. The optimization technologies and methodologies I led have generated an **accumulated economic benefit of over $20 Billion USD** for the industry, optimizing millions of servers globally from the P6 microarchitecture era to the "Double 11" cloud scale.
+### 🚀 Technical & Economic Impact
+- **Focus**: Software-Hardware Co-optimization (SHCO), Performance Analytics & Intelligence  
+- **Accumulated industry savings**: > USD 20 billion  
+- **Scale**: Optimized tens of millions of servers worldwide, including Double-11 peak workloads
 
 ### 🌐 Global Authority
-* **JCP-EC Member:** I served as the **first and only Chinese representative** on the **Java Community Process Executive Committee (JCP-EC)** (2018–2022), the highest decision-making body for global Java standards.
-* **Standards & Patents:** I hold **42 patents** (including 24 US patents) and have published over **135 papers**.
+- **Java Standards**: First and only Chinese member, JCP-EC (2018–2022)  
+- **Publications**: 135+ papers; 74 patents (24 granted US patents) 
 
 ---
 
@@ -83,10 +89,8 @@ I have delivered keynotes at major industry conferences, including **4 appearanc
 
 ## 📜 Patents
 
-I am the inventor of **42 patents** covering processor architecture, trace buffers, and performance evaluation.
-
 <details>
-  <summary style="cursor: pointer; padding: 10px 0;"><b>🇺🇸 Granted US Patents (24)</b></summary>
+  <summary style="cursor: pointer; padding: 10px 0;"><b>🇺🇸 Granted US Patents（24）</b></summary>
   <ul>
     <li><a href="https://patents.google.com/patent/US10762065">US10762065 – Performance monitoring</a></li>
     <li><a href="https://patents.google.com/patent/US10452443">US10452443 – Dynamic tuning of a multi-processor/core computing system</a></li>
@@ -107,7 +111,7 @@ I am the inventor of **42 patents** covering processor architecture, trace buffe
     <li><a href="https://patents.google.com/patent/US7216154">US7216154 – Apparatus and method for facilitating access to network resources</a></li>
     <li><a href="https://patents.google.com/patent/US7032017">US7032017 – System and method for predictive resource allocation</a></li>
     <li><a href="https://patents.google.com/patent/US6850899">US6850899 – Method for high-accuracy branch prediction</a></li>
-    <li><a href="https://patents.google.com/patent/US6772324">US6772324 – <b>Processor having program counter and execution pipeline external trace buffers</b> (Key Invention)</a></li>
+    <li><a href="https://patents.google.com/patent/US6772324">US6772324 – Processor having program counter and execution pipeline external trace buffers</a></li>
     <li><a href="https://patents.google.com/patent/US6741990">US6741990 – Trace-driven workload characterization</a></li>
     <li><a href="https://patents.google.com/patent/US6684252">US6684252 – Method and system for predicting computer-server performance</a></li>
     <li><a href="https://patents.google.com/patent/US6493820">US6493820 – System for online performance diagnostics</a></li>
@@ -116,7 +120,7 @@ I am the inventor of **42 patents** covering processor architecture, trace buffe
 </details>
 
 <details>
-  <summary style="cursor: pointer; padding: 10px 0;"><b>🇺🇸 Published US Applications (22)</b></summary>
+  <summary style="cursor: pointer; padding: 10px 0;"><b>🇺🇸 Published US Applications（22）</b></summary>
   <ul>
     <li><a href="https://patents.google.com/patent/US20210056086">US20210056086 – Cross-architecture performance projection</a></li>
     <li><a href="https://patents.google.com/patent/US20170337083">US20170337083 – Cloud-scale performance regression detection</a></li>
@@ -140,6 +144,52 @@ I am the inventor of **42 patents** covering processor architecture, trace buffe
     <li><a href="https://patents.google.com/patent/US20020178169">US20020178169 – System for heterogeneous workload co-location</a></li>
     <li><a href="https://patents.google.com/patent/US20020143991">US20020143991 – Method for lightweight memory profiling</a></li>
     <li><a href="https://patents.google.com/patent/US20010014941">US20010014941 – Early-stage performance modeling</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary style="cursor: pointer; padding: 10px 0;"><b>🇨🇳 中国专利（已公开/授权）</b></summary>
+  <ul>
+    <li><a href="https://patents.google.com/patent/CN111435317B">CN111435317B – 数据处理方法、计算设备及存储介质</a>（发明人：郭健美、周经森；权利人：阿里巴巴集团；已授权）</li>
+    <li><a href="https://patents.google.com/patent/CN110998539B">CN110998539B – 系统更新的性能影响分析</a>（发明人：周经森、朱婉怡；权利人：阿里巴巴集团；已授权）</li>
+    <li><a href="https://patents.google.com/patent/CN110235085A">CN110235085A – 确定多处理系统的处理器使用率</a>（发明人：周经森等；权利人：阿里巴巴集团）</li>
+    <li><a href="https://patents.google.com/patent/CN110741351A">CN110741351A – 确定虚拟化多处理系统的处理器利用率</a></li>
+    <li><a href="https://patents.google.com/patent/CN105164651A">CN105164651A – 在管理的运行时间环境域中的高速缓存管理</a>（权利人：英特尔）</li>
+    <li><a href="https://patents.google.com/patent/CN111435317A">CN111435317A – 数据处理方法、计算设备及存储介质（公开）</a></li>
+    <li><a href="https://patents.google.com/patent/CN107851041A">CN107851041A – 多处理器/多核心计算系统的动态调优</a>（权利人：英特尔）</li>
+    <li><a href="https://patents.google.com/patent/CN110741351B">CN110741351B – 确定虚拟化多处理系统的处理器利用率（授权）</a></li>
+    <li><a href="https://patents.google.com/patent/CN107851041B">CN107851041B – 多处理器/多核心计算系统的动态调优（授权）</a></li>
+    <li><a href="https://patents.google.com/patent/CN110998539A">CN110998539A – 系统更新的性能影响分析（公开）</a></li>
+    <li><a href="https://patents.google.com/patent/CN105164651B">CN105164651B – 在管理的运行时间环境域中的高速缓存管理（授权）</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary style="cursor: pointer; padding: 10px 0;"><b>🇨🇳 中国专利申请（已受理 / 实审中）</b></summary>
+  <ul>
+    <li>一种面向混合架构的CPU利用率的计算系统和方法. 发明人：周经森、江新宇、冯雨森、管江涛. 状态：实审中. 申请日：2023.11</li>
+    <li>一种基于机器学习的数据库性能预测方法. 发明人：周经森、孙志超. 状态：实审中. 申请日：2024.11.20</li>
+    <li>一种面向电商秒杀应用的基准测试方法. 发明人：周经森、陈奕坤、杨孟铎、常亚辰、江新宇、章超. 状态：将要授权. 申请日：2024.10.31；预计授权日：2025.10.20</li>
+    <li>一种基于类别感知和特征解耦的分布外检测方法. 发明人：周经森、常亚辰、凌志威、赵海亮. 状态：实审中. 申请日：2025.01.23</li>
+    <li>一种云服务器异常检测方法. 发明人：周经森、梁冬晴. 状态：实审中. 申请日：2025.01.22</li>
+    <li>一种自动提取并行应用程序热点代码的方法. 发明人：周经森、章超. 状态：将要授权. 申请日：2024.12.09；预计授权日：2025.09.26</li>
+    <li>一种多个核心组内共享预取器的预取配置优化方法. 发明人：周经森、常亚辰. 状态：将要授权. 申请日：2024.12.10；预计授权日：2025.09.25</li>
+    <li>一种面向数据中心集群的多重连接聚类方法. 发明人：周经森、冯雨森. 状态：将要授权. 申请日：2024.12.06；预计授权日：2025.09.22</li>
+    <li>一种CPU性能采样工具的运行开销的预测方法. 发明人：周经森、汤煜. 状态：受理. 申请日：2025.07.08</li>
+    <li>一种基于分布外检测的联邦学习方法. 发明人：周经森、章超、赵海亮、凌志威. 状态：受理. 申请日：2025.04.01</li>
+    <li>一种计算机处理器性能监测单元的硬件事件组调度方法. 发明人：周经森、江新宇. 状态：受理. 申请日：2025.07.08</li>
+    <li>一种基于LLM聚类和多次召回的文档检索方法. 发明人：周经森、管江涛. 状态：受理. 申请日：2025.10.11</li>
+  </ul>
+</details>
+
+<details>
+  <summary style="cursor: pointer; padding: 10px 0;"><b>🌐 International Applications（5）</b></summary>
+  <ul>
+    <li><a href="https://worldwide.espacenet.com/searchResults?ST=singleline&locale=en_EP&submitted=true&DB=&query=kingsum+chow">Espacenet search results for "Kingsum Chow"</a></li>
+    <li><a href="https://worldwide.espacenet.com/publicationDetails/biblio?II=5&ND=3&adjacent=true&locale=en_EP&FT=D&date=20190214&CC=WO&NR=2019028648A1&KC=A1">WO2019028648A1</a></li>
+    <li><a href="https://worldwide.espacenet.com/publicationDetails/biblio?II=6&ND=3&adjacent=true&locale=en_EP&FT=D&date=20180614&CC=DE&NR=112016003974T5&KC=T5">DE112016003974T5</a></li>
+    <li><a href="https://worldwide.espacenet.com/publicationDetails/biblio?II=7&ND=3&adjacent=true&locale=en_EP&FT=D&date=20170309&CC=WO&NR=2017039892A1&KC=A1">WO2017039892A1</a></li>
+    <li><a href="https://worldwide.espacenet.com/publicationDetails/biblio?II=12&ND=3&adjacent=true&locale=en_EP&FT=D&date=20140925&CC=WO&NR=2014151278A1&KC=A1">WO2014151278A1</a></li>
   </ul>
 </details>
 
