@@ -56,7 +56,7 @@ permalink: /
 
 ---
 
-## 📖 Biography & Impact
+## 1️⃣ Biography & Impact
 
 ### 🎓 Current Role & Education
 - **Researcher / Ph.D. Supervisor** – School of Software Technology, Zhejiang University  
@@ -79,7 +79,7 @@ permalink: /
 
 ---
 
-## 🛠️ Research & Projects
+## 2️⃣ Research & Subject
 
 ### 🔗[SPAIL Lab (System Performance Analytics and Intelligence Lab)](https://github.com/ZJU-SPAIL)
 *Leading a team of industry veterans and top researchers to solve bottlenecks in Cloud, AI, and Big Data.*
@@ -88,7 +88,9 @@ permalink: /
 **Platform for Integrated Performance Analytics**
 A unified framework designed to describe, analyze, and optimize system performance across heterogeneous architectures.
 
-## 🏆Major Projects & Collabrations
+---
+
+## 3️⃣ Projects & Collabrations
 Dr. Chow has led large-scale, high-impact collaborations with global technology leaders, demonstrating expertise in full-stack system optimization. The projects he has spearheaded accumulated an astonishing total budget exceeding **💰160 million CNY** (over **💰20 million USD**).
 
 * **Strategic Ecosystem Partnerships:** Collaborated extensively with industry giants including Amazon, Ampere, Arm, Google, Huawei, Microsoft, Tencent, and Meta.
@@ -103,7 +105,7 @@ Dr. Chow has led large-scale, high-impact collaborations with global technology 
 
 ---
 
-## 🎤 Keynote Presentations
+## 4️⃣ Keynote Presentations
 
 I have delivered keynotes at major industry conferences, including **4 appearances at JavaOne**, the world's highest-rated Java conference.
 
@@ -125,7 +127,7 @@ I have delivered keynotes at major industry conferences, including **4 appearanc
 
 ---
 
-## 💬 Endorsements
+## 5️⃣ Endorsements
 
 > "Kingsum is considered a leading expert across the software and hardware industry for accurate data collection, intuitive analysis and identify optimizations... His knowledge of production systems at scale... resulted in significant performance improvements."
 >
@@ -145,7 +147,7 @@ I have delivered keynotes at major industry conferences, including **4 appearanc
 
 ---
 
-## 📜 Patents
+## 7️⃣ Patents
 
 <details>
   <summary style="cursor: pointer; padding: 10px 0;"><b>🇺🇸 Granted US Patents（24）</b></summary>
