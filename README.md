@@ -37,17 +37,25 @@ permalink: /
 
 ## 🛠️ Research & Projects
 
-### [SPAIL Lab (System Performance Analytics and Intelligence Lab)](https://github.com/SPAIL-ZJU)
+### 🔗[SPAIL Lab (System Performance Analytics and Intelligence Lab)](https://github.com/SPAIL-ZJU)
 *Leading a team of industry veterans and top researchers to solve bottlenecks in Cloud, AI, and Big Data.*
 
-### [Project PIPA](https://github.com/kingsum/PIPA/wiki)
+### 🔗[Project PIPA](https://github.com/kingsum/PIPA/wiki)
 **Platform for Integrated Performance Analytics**
 A unified framework designed to describe, analyze, and optimize system performance across heterogeneous architectures.
 
-### Key Industry Collaborations
-* **Intel & Oracle (Project Apollo):** Led the collaboration for the 2015 Oracle Cloud launch ($4M budget), announced by CEOs of both companies.
-* **Alibaba SPEED:** Led the development of the "System Performance Estimation, Evaluation and Decision" platform.
-* **Ecosystem Partners:** Collaborated with Amazon, Ampere, Arm, Google, Huawei, Microsoft, Tencent, and Meta.
+### 🏆Major Projects & Collabrations
+Dr. Chow has led large-scale, high-impact collaborations with global technology leaders, demonstrating expertise in full-stack system optimization. The projects he has spearheaded accumulated an astonishing total budget exceeding **💰160 million CNY** (over **💰20 million USD**).
+
+* **Strategic Ecosystem Partnerships:** Collaborated extensively with industry giants including Amazon, Ampere, Arm, Google, Huawei, Microsoft, Tencent, and Meta.
+* **Project Apollo (Intel & Oracle, 2014–2016):** Led the collaboration for the 2015 Oracle Cloud launch, which was announced by the CEOs of both companies.
+* **Alibaba SPEED (2018–2020):** Led the development of the "System Performance Estimation, Evaluation and Decision" platform for Alibaba.
+* **Project Meta (Intel & Meta, 2022–2023):** A major leadership initiative with a vast budget focused on advanced system research.
+* **Huawei Software Performance Optimization (2024–2026):** Leading a multi-year project dedicated to optimizing Huawei's core software performance.
+* **Heterogeneous Serverless Optimization (2024–2026):** Focused on performance modeling and optimization for serverless, GPU throughput, and microservice environments, collaborating with Alibaba, Kuaishou, ByteDance, and Ampere.
+* **Alibaba Dragonwell JDK (2018–2019):** Spearheaded the development and optimization of Alibaba's critical Java Development Kit.
+* **Oracle Exalytics Memory Optimization (2013–2014):** Led performance optimization for Oracle's in-memory analytics system.
+* **Intel P6 Microcode Simulator (1993–1994):** Early high-impact work involving the development of a performance simulator for Intel's P6 microcode.
 
 ---
 
