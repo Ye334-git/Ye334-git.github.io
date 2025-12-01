@@ -84,7 +84,7 @@ permalink: /
 ### 🔗[SPAIL Lab (System Performance Analytics and Intelligence Lab)](https://github.com/ZJU-SPAIL)
 *Leading a team of industry veterans and top researchers to solve bottlenecks in Cloud, AI, and Big Data.*
 
-### 🔗[Project PIPA - SPAIL](https://github.com/kingsum/PIPA/wiki)
+### 🔗[PIPA - SPAIL](https://github.com/kingsum/PIPA/wiki)
 **Platform for Integrated Performance Analytics**
 A unified framework designed to describe, analyze, and optimize system performance across heterogeneous architectures.
 
