@@ -1,8 +1,0 @@
-# 导航栏链接配置
-main:
-  - title: "Home"
-    url: "/"
-  - title: "Visit My Lab"
-    url: "https://github.com/ZJU-SPAIL"
-  - title: "Visit My ZJU Page"
-    url: "https://github.com/ZJU-SPAIL"
