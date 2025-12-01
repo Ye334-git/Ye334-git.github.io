@@ -21,12 +21,8 @@ permalink: /
   *Advisor: ACM/IEEE Fellow David Notkin*
 
 ### 💼 Industry Career
-| Company | Role | Period |
-| -------- | ---- | ------- |
-| Alibaba | Chief Scientist | 2016–2022 |
-| Intel (USA) | Principal Engineer | 1996–2016 |
-
-*28 years of hands-on experience spanning the P6 micro-architecture to the cloud-native era.*
+- **Chief Scientist** – Alibaba (2016–2022)  
+- **Principal Engineer** – Intel Corporation, USA (1996–2016)  
 
 ### 🚀 Technical & Economic Impact
 - **Focus**: Software-Hardware Co-optimization (SHCO), Performance Analytics & Intelligence  
