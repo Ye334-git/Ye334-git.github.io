@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kingsum Chow — Developer · Creator · Researcher</title>
+  <meta name="description" content="Personal portfolio — AI, HCI, game design, creative coding.">
+  <meta name="theme-color" content="#05060f">
+  <meta property="og:title" content="Kingsum Chow · Portfolio">
+  <meta property="og:description" content="Developer, creator, researcher — building at the intersection of AI, HCI, and interactive media.">
+  <meta property="og:url" content="https://Ye334-git.github.io">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <canvas id="particles" aria-hidden="true"></canvas>
+
+  <nav class="nav">
+    <span class="nav-logo">~/ks</span>
+    <div class="nav-links">
+      <a href="#hero">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="https://github.com/Ye334-git" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </nav>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h1 class="glitch" data-text="Kingsum Chow">Kingsum Chow</h1>
+      <p class="hero-tagline">Developer · Creator · Researcher</p>
+      <p class="hero-desc">Building at the intersection of AI, HCI, game design, and interactive media.</p>
+      <div class="hero-scroll" aria-hidden="true">
+        <span>&darr;</span>
+      </div>
+    </div>
+  </section>
+
+  <main id="projects">
+    <h2 class="section-title" data-reveal>
+      <span class="accent">#</span> Featured Projects
+    </h2>
+    <div class="grid" id="project-grid" data-reveal></div>
+  </main>
+
+  <footer class="terminal">
+    <div class="terminal-content">
+      <p><span class="prompt">$</span> whoami</p>
+      <p class="output">Ye334-git (Kingsum Chow)</p>
+      <p><span class="prompt">$</span> ls projects/</p>
+      <p class="output">GRID &nbsp; Yvibe &nbsp; RUSHI &nbsp; LargeScreen1 &nbsp; RemotionSkills &nbsp; Writing2</p>
+      <p><span class="prompt">$</span> <span class="cursor">_</span></p>
+    </div>
+    <div class="footer-links">
+      <a href="https://github.com/Ye334-git" target="_blank" rel="noopener">GitHub</a>
+      <span class="muted">·</span>
+      <a href="mailto:Yang_ye334@zju.edu.cn">Email</a>
+    </div>
+    <p class="footer-copy">&copy; <span id="year"></span> Kingsum Chow</p>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
