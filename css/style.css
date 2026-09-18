@@ -77,17 +77,20 @@ a:hover { color: var(--magenta); }
 }
 
 /* The compact title the hero heading collapses into. The heading lands exactly
-   here, so the swap between the two is masked by a crossfade at contact. */
+   here, so the swap between the two is masked by a crossfade at contact.
+   It is centred in the bar: absolute + translateX(-50%) centres the pill itself,
+   independent of how wide the logo or the links happen to be. The translateY
+   below therefore has to travel in the same transform. */
 .nav-title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
   display: flex;
   align-items: center;
-  padding-left: 1.6rem;
-  /* sit right beside ~/ye instead of drifting to the middle of the bar */
-  margin-right: auto;
   /* hidden until the heading has folded into it */
   opacity: 0;
-  transform: translateY(-6px);
   visibility: hidden;
+  transform: translate(-50%, calc(-50% - 6px));
   pointer-events: none;
 }
 
@@ -103,7 +106,9 @@ a:hover { color: var(--magenta); }
   transition: border-color 0.4s ease, background 0.4s ease, box-shadow 0.4s ease;
 }
 
-/* Carries the heading's exact type so its width gives the landing scale. */
+/* Invisible, but it is what gives the pill its width once the heading lands:
+   its data-text is the pill's full label, so the frosted capsule is already the
+   right size for the text that cross-fades in. */
 .nt-fly {
   font-family: var(--font-mono);
   font-size: 0.82rem;
@@ -145,8 +150,8 @@ a:hover { color: var(--magenta); }
 /* Once the heading has folded in, the pill settles and the bar frosted over. */
 .nav.nav-pinned .nav-title {
   opacity: 1;
-  transform: translateY(0);
   visibility: visible;
+  transform: translate(-50%, -50%);
   transition: opacity 0.42s ease, transform 0.42s ease;
 }
 .nav.nav-pinned .nav-title-pill {
@@ -510,7 +515,6 @@ a:hover { color: var(--magenta); }
 
   /* keep the bar from overflowing: the compact title shrinks to the name,
      and the tag only returns once there is room again */
-  .nav-title { padding-left: 0.4rem; }
   .nav-title-pill { padding: 0.24rem 0.5rem; }
   .nav-title-text { font-size: 0.76rem; }
   .nav-title-text .nt-sep,
