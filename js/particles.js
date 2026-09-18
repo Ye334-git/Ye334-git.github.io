@@ -17,6 +17,14 @@ const HOME_SNAP = 0.09;          // firm pull once it has been knocked clear
 const HOME_SLACK = 30;           // displacement still counted as local wandering
 const HOME_LATCH = 2;            // distance at which it counts as home again
 
+// Page scroll opens a quiet channel through the middle of the field. The value
+// is eased in the animation loop, so a mouse wheel notch feels like an impulse
+// rather than a layout jump; scrolling back to the top restores the exact same
+// home positions the particles started from.
+const SCROLL_SPREAD_RATIO = 0.28;
+const SCROLL_SPREAD_CAP = 380;
+const SCROLL_EASE = 0.055;
+
 class Particle {
   constructor(w, h) {
     this.reset(w, h, true);
@@ -38,9 +46,10 @@ class Particle {
     this.opacityDir = Math.random() > 0.5 ? 1 : -1;
     this.opacitySpeed = Math.random() * TWINKLE_SPEED_VAR + TWINKLE_SPEED;
     this.returning = false;
+    this.spreadSide = this.homeX < w / 2 ? -1 : 1;
   }
 
-  update(w, h, k, mouse) {
+  update(w, h, k, mouse, scrollSpread) {
     // Drift — always at DRIFT_SPEED, never braked by the tether below.
     this.x += this.vx * k;
     this.y += this.vy * k;
@@ -62,10 +71,12 @@ class Particle {
     }
 
     // Tether home. Below HOME_SLACK the pull is slack, so the particle is free to
-    // wander locally at full drift speed; past it — which only happens when the
-    // pointer has shoved it — the firm pull takes over and reels it back. The
-    // firm pull holds until HOME_LATCH, so it returns to its place and stays.
-    const hdx = this.homeX - this.x;
+    // wander locally at full drift speed; past it — after pointer disturbance
+    // or a scroll-driven target shift — the firm pull takes over. It holds until
+    // HOME_LATCH, so reversing the scroll restores the original distribution.
+    const edgeWeight = 0.42 + Math.min(1, Math.abs(this.homeX - w / 2) / (w / 2)) * 0.58;
+    const spreadX = this.homeX + this.spreadSide * scrollSpread * edgeWeight;
+    const hdx = spreadX - this.x;
     const hdy = this.homeY - this.y;
     const homeDist = Math.sqrt(hdx * hdx + hdy * hdy);
     if (this.returning) {
@@ -79,8 +90,13 @@ class Particle {
 
     // Wrap around edges, carrying the home point along so the tether never
     // tries to drag a particle back across the whole canvas.
-    if (this.x < -10) { this.x += w + 20; this.homeX += w + 20; }
-    if (this.x > w + 10) { this.x -= w + 20; this.homeX -= w + 20; }
+    // While the page is spread open, particles may sit just outside the canvas
+    // instead of wrapping to the opposite side (which would refill the centre).
+    // Once the page returns to the top the normal starfield wrapping resumes.
+    if (scrollSpread < 1) {
+      if (this.x < -10) { this.x += w + 20; this.homeX += w + 20; }
+      if (this.x > w + 10) { this.x -= w + 20; this.homeX -= w + 20; }
+    }
     if (this.y < -10) { this.y += h + 20; this.homeY += h + 20; }
     if (this.y > h + 10) { this.y -= h + 20; this.homeY -= h + 20; }
 
@@ -93,6 +109,7 @@ class Particle {
 
 const stars = [];
 const mouse = { x: -9999, y: -9999, active: false };
+const scrollState = { target: 0, current: 0 };
 let canvas, ctx, w, h, animId, lastTime = 0;
 
 function onPointerMove(e) {
@@ -107,6 +124,12 @@ function onPointerLeave() {
   mouse.y = -9999;
 }
 
+function updateScrollTarget() {
+  const y = Math.max(0, window.scrollY || window.pageYOffset || 0);
+  const travel = Math.max(window.innerHeight * 1.35, 1);
+  scrollState.target = Math.min(1, y / travel);
+}
+
 function resize() {
   const dpr = Math.min(window.devicePixelRatio || 1, 2);
   const nextW = window.innerWidth;
@@ -117,6 +140,7 @@ function resize() {
   for (const s of stars) {
     s.x *= sx;  s.homeX *= sx;
     s.y *= sy;  s.homeY *= sy;
+    s.spreadSide = s.homeX < nextW / 2 ? -1 : 1;
   }
   w = nextW;
   h = nextH;
@@ -143,6 +167,8 @@ function init() {
   window.addEventListener('pointerleave', onPointerLeave);
   document.addEventListener('pointerleave', onPointerLeave);
   window.addEventListener('blur', onPointerLeave);
+  window.addEventListener('scroll', updateScrollTarget, { passive: true });
+  updateScrollTarget();
   lastTime = 0;
   animate();
 }
@@ -168,10 +194,16 @@ function animate(now) {
   const k = lastTime ? Math.min((now - lastTime) / STEP_MS, 6) : 1;
   lastTime = now;
 
+  // Frame-rate-independent interpolation toward the scroll position.
+  const scrollLerp = 1 - Math.pow(1 - SCROLL_EASE, k);
+  scrollState.current += (scrollState.target - scrollState.current) * scrollLerp;
+  const easedScroll = scrollState.current * scrollState.current * (3 - 2 * scrollState.current);
+  const scrollSpread = easedScroll * Math.min(w * SCROLL_SPREAD_RATIO, SCROLL_SPREAD_CAP);
+
   ctx.clearRect(0, 0, w, h);
 
   for (let i = 0; i < stars.length; i++) {
-    stars[i].update(w, h, k, mouse);
+    stars[i].update(w, h, k, mouse, scrollSpread);
 
     // Draw star
     ctx.beginPath();
@@ -187,6 +219,18 @@ function animate(now) {
 
   animId = requestAnimationFrame(animate);
 }
+
+// Lightweight inspection hook, matching the one used by hero-collapse.js.
+window.__particleField = {
+  get state() {
+    const eased = scrollState.current * scrollState.current * (3 - 2 * scrollState.current);
+    return {
+      scrollTarget: +scrollState.target.toFixed(3),
+      scrollCurrent: +scrollState.current.toFixed(3),
+      spreadPx: +(eased * Math.min((w || 0) * SCROLL_SPREAD_RATIO, SCROLL_SPREAD_CAP)).toFixed(1),
+    };
+  },
+};
 
 // Check for reduced-motion preference
 const mq = window.matchMedia('(prefers-reduced-motion: reduce)');

@@ -181,6 +181,38 @@ a:hover { color: var(--magenta); }
 
 .hero-content .glitch-text { display: inline-block; }
 
+/* Pointer lens: a real backdrop-filter layer sits above the title and the
+   canvas. It softens the white glyphs beneath it while letting the cyan
+   particles bloom through the translucent glass. Its position and strength
+   are supplied by js/hero-lens.js. */
+.hero-glass-lens {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 4;
+  width: clamp(124px, 12vw, 168px);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(calc(0.88 + var(--hero-lens-strength, 0) * 0.12));
+  opacity: var(--hero-lens-strength, 0);
+  pointer-events: none;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 38% 32%, rgba(255, 255, 255, 0.15), transparent 38%),
+    rgba(207, 227, 255, 0.055);
+  border: 1px solid rgba(207, 227, 255, 0.24);
+  box-shadow:
+    inset 0 0 24px rgba(255, 255, 255, 0.07),
+    0 0 22px rgba(0, 240, 255, 0.12),
+    0 0 54px rgba(0, 240, 255, 0.06);
+  backdrop-filter: blur(10px) saturate(1.45) brightness(1.06);
+  -webkit-backdrop-filter: blur(10px) saturate(1.45) brightness(1.06);
+  transition: opacity 80ms linear, border-color 160ms ease, box-shadow 160ms ease;
+  will-change: left, top, opacity, transform;
+}
+
+.hero-title-flying .hero-glass-lens { display: none; }
+
 .nav-links { display: flex; gap: 1.5rem; }
 .nav-links a {
   font-size: 0.85rem;
@@ -218,6 +250,8 @@ a:hover { color: var(--magenta); }
   position: relative;
   line-height: 1.1;
   margin-bottom: 0.3em;
+  opacity: var(--hero-pointer-opacity, 1);
+  transition: opacity 90ms linear;
 }
 
 .glitch::before,
@@ -551,4 +585,5 @@ a:hover { color: var(--magenta); }
   }
   #particles { display: none; }
   .glitch::before, .glitch::after { display: none; }
+  .hero-glass-lens { display: none; }
 }
