@@ -27,11 +27,24 @@ That's it — no other files need to change.
 ### Local preview
 
 ```bash
-python -m http.server 8000
+node preview.mjs
 # Open http://localhost:8000
 ```
 
-ES modules require a local HTTP server — opening `index.html` directly via `file://` won't work.
+This site is built from ES modules, so opening `index.html` directly via
+`file://` will not work — the browser blocks module loading.
+
+Do **not** use `python -m http.server`: it serves `.js` files as `text/plain`,
+and browsers refuse to execute a module with the wrong MIME type. The symptom is
+a page with no project cards and no particle background. `preview.mjs` exists to
+serve the correct content types.
+
+Use a different port if 8000 is taken:
+
+```bash
+$env:PORT=8123; node preview.mjs     # PowerShell
+PORT=8123 node preview.mjs           # bash
+```
 
 ### Deploy
 
