@@ -76,6 +76,106 @@ a:hover { color: var(--magenta); }
   letter-spacing: -0.02em;
 }
 
+/* The compact title the hero heading collapses into. The heading lands exactly
+   here, so the swap between the two is masked by a crossfade at contact. */
+.nav-title {
+  display: flex;
+  align-items: center;
+  padding-left: 1.6rem;
+  /* sit right beside ~/ye instead of drifting to the middle of the bar */
+  margin-right: auto;
+  /* hidden until the heading has folded into it */
+  opacity: 0;
+  transform: translateY(-6px);
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.nav-title-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.28rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid rgba(0, 240, 255, 0.18);
+  background: rgba(0, 240, 255, 0.05);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: border-color 0.4s ease, background 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* Carries the heading's exact type so its width gives the landing scale. */
+.nt-fly {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  visibility: hidden;
+}
+.nt-fly::before { content: attr(data-text); }
+
+.nav-title-text {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--text);
+  white-space: nowrap;
+}
+
+/* The real label cross-fades in over .nt-fly as the heading arrives, so the
+   change of typeface happens invisibly. Opacity is driven inline by
+   js/hero-collapse.js. It must never affect layout: if the label's width fed
+   back into the pill, the pill would grow mid-animation and the heading would
+   be chasing a target that keeps moving. */
+.nt-label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.nav-title-text .nt-tag { color: var(--cyan); }
+.nav-title-text .nt-sep { color: var(--muted); opacity: 0.7; }
+
+/* Once the heading has folded in, the pill settles and the bar frosted over. */
+.nav.nav-pinned .nav-title {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+  transition: opacity 0.42s ease, transform 0.42s ease;
+}
+.nav.nav-pinned .nav-title-pill {
+  border-color: rgba(0, 240, 255, 0.3);
+  background: rgba(0, 240, 255, 0.08);
+  box-shadow: 0 0 18px rgba(0, 240, 255, 0.1), inset 0 0 12px rgba(0, 240, 255, 0.04);
+}
+
+/* Compact title: while the heading is in flight the label stays transparent but
+   laid out, so the pill keeps its final width and nothing resizes mid-animation.
+   The heading lands on .nt-name and the pair cross-fade at contact. */
+
+/* The heading in flight. Scaling must pivot on the top-left of the glyphs, not
+   the centre of the element — the heading box is far wider than the text, and a
+   centre pivot throws the landing off by ~160px. The clone is inline-block so
+   its box hugs the text, matching the measured glyph box. */
+.hero-title-flying {
+  position: relative;
+  z-index: 101;
+  display: inline-block;
+  transform-origin: 0 0;
+  will-change: transform;
+  pointer-events: none;
+}
+.hero-title-flying::before,
+.hero-title-flying::after { opacity: 0 !important; animation: none !important; }
+
+.hero-content .glitch-text { display: inline-block; }
+
 .nav-links { display: flex; gap: 1.5rem; }
 .nav-links a {
   font-size: 0.85rem;
@@ -157,6 +257,11 @@ a:hover { color: var(--magenta); }
   5%, 15%, 25%, 45% { opacity: 0.1; }
   10%, 20%, 30% { opacity: 0.9; }
 }
+
+/* --glitch-fade is driven by the scroll collapse (see js/hero-collapse.js):
+   it pulls the two offset layers in as the heading travels up to the nav. */
+.glitch::before { opacity: calc(0.8 * var(--glitch-fade, 1)); }
+.glitch::after { opacity: calc(0.8 * var(--glitch-fade, 1)); }
 
 .hero-tagline {
   font-family: var(--font-mono);
@@ -403,6 +508,14 @@ a:hover { color: var(--magenta); }
   .nav-links { gap: 1rem; }
   .nav-links a { font-size: 0.78rem; }
 
+  /* keep the bar from overflowing: the compact title shrinks to the name,
+     and the tag only returns once there is room again */
+  .nav-title { padding-left: 0.4rem; }
+  .nav-title-pill { padding: 0.24rem 0.5rem; }
+  .nav-title-text { font-size: 0.76rem; }
+  .nav-title-text .nt-sep,
+  .nav-title-text .nt-tag { display: none; }
+
   #projects { padding: 3rem 1rem 4rem; }
 
   .grid {
@@ -412,6 +525,15 @@ a:hover { color: var(--magenta); }
 
   .card { padding: 1.3rem; }
   .terminal-content { font-size: 0.8rem; }
+}
+
+@media (min-width: 721px) and (max-width: 1120px) {
+  /* The tag is held back while the heading is in flight, so the pill never
+     resizes mid-animation; it is revealed the moment the state pins. */
+  .nav-title-text .nt-sep,
+  .nav-title-text .nt-tag { display: none; }
+  .nav.nav-pinned .nav-title-text .nt-sep,
+  .nav.nav-pinned .nav-title-text .nt-tag { display: inline; }
 }
 
 /* ==========================================

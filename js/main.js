@@ -4,6 +4,7 @@
 
 import './particles.js';
 import { renderCards } from './cards.js';
+import './hero-collapse.js';
 
 /* ---------- Scroll Reveal ---------- */
 function initReveal() {
