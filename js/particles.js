@@ -11,7 +11,7 @@ const TWINKLE_SPEED_VAR = 0.001; // was 0.002 — halved
 const STEP_MS = 1000 / 60;       // original per-frame units were 60fps based
 
 const CURSOR_RADIUS = 170;       // how far the pointer disturbs particles
-const CURSOR_FORCE = 7;          // push strength at the very centre
+const CURSOR_FORCE = 25;         // push strength at the very centre
 const HOME_EASE = 0.0005;        // loose tether: lets the particle wander locally
 const HOME_SNAP = 0.09;          // firm pull once it has been knocked clear
 const HOME_SLACK = 30;           // displacement still counted as local wandering
